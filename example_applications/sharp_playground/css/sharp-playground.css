@@ -1,0 +1,195 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #111827;
+	background: #f9fafb;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Pict example header (shipped pattern) */
+.pict-example-header
+{
+	background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+	color: #f9fafb;
+	padding: 18px 28px;
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.pict-example-badge
+{
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	background: rgba(252, 211, 77, 0.15);
+	color: #fcd34d;
+	border: 1px solid rgba(252, 211, 77, 0.3);
+	padding: 4px 10px;
+	border-radius: 4px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.pict-example-badge svg
+{
+	width: 12px;
+	height: 12px;
+	fill: currentColor;
+}
+
+.pict-example-app-name
+{
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.pict-example-module
+{
+	font-family: "SF Mono", "Fira Code", monospace;
+	font-size: 0.78rem;
+	color: #9ca3af;
+	margin-left: auto;
+}
+
+/* Layout */
+.sp-container
+{
+	max-width: 1100px;
+	margin: 24px auto;
+	padding: 0 18px;
+	display: grid;
+	gap: 18px;
+}
+
+.sp-status-bar
+{
+	background: #1f2937;
+	color: #f9fafb;
+	border-radius: 6px;
+	padding: 10px 16px;
+	font-family: "SF Mono", "Fira Code", monospace;
+	font-size: 0.82rem;
+}
+
+.sp-status-ok    { background: #064e3b; color: #d1fae5; }
+.sp-status-bad   { background: #7f1d1d; color: #fee2e2; }
+
+.sp-panel
+{
+	background: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 6px;
+	padding: 18px 20px;
+}
+
+.sp-panel h2
+{
+	margin: 0 0 14px;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #374151;
+}
+
+.sp-row
+{
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.sp-row + .sp-row { margin-top: 8px; }
+
+button.sp-btn
+{
+	font: inherit;
+	font-size: 0.85rem;
+	background: #2563eb;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 6px 14px;
+	cursor: pointer;
+	min-width: 120px;
+	text-align: left;
+}
+
+button.sp-btn:hover { background: #1d4ed8; }
+button.sp-btn-secondary { background: #4b5563; min-width: auto; }
+button.sp-btn-secondary:hover { background: #374151; }
+
+label.sp-file
+{
+	background: #4b5563;
+	color: white;
+	border-radius: 4px;
+	padding: 6px 14px;
+	cursor: pointer;
+	font-size: 0.85rem;
+}
+
+label.sp-file:hover { background: #374151; }
+label.sp-file input { display: none; }
+
+.sp-arg
+{
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	font-size: 0.82rem;
+	color: #4b5563;
+}
+
+.sp-arg input[type="number"], .sp-arg select
+{
+	padding: 3px 6px;
+	border: 1px solid #d1d5db;
+	border-radius: 3px;
+	background: white;
+	font: inherit;
+	font-size: 0.82rem;
+	width: 70px;
+}
+
+.sp-arg select { width: auto; }
+
+.sp-preview
+{
+	display: flex;
+	gap: 18px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.sp-preview img
+{
+	max-width: 320px;
+	max-height: 320px;
+	border: 1px solid #e5e7eb;
+	background: repeating-conic-gradient(#f3f4f6 0% 25%, #fafafa 0% 50%) 50% / 16px 16px;
+}
+
+.sp-info
+{
+	font-family: "SF Mono", "Fira Code", monospace;
+	font-size: 0.78rem;
+	color: #4b5563;
+	white-space: pre-wrap;
+	margin: 0;
+	flex: 1;
+	min-width: 220px;
+	background: #f3f4f6;
+	border-radius: 4px;
+	padding: 10px 12px;
+}
+
+.sp-info-empty { color: #9ca3af; }

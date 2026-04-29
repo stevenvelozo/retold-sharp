@@ -1,0 +1,40 @@
+{
+	"name": "retold-sharp",
+	"version": "0.0.1",
+	"description": "Wrapper around the sharp image library that bypasses sharp's global-libvips detection at install time, so machines with Homebrew or system libvips don't fall into the build-from-source path.",
+	"main": "source/Retold-Sharp.js",
+	"scripts": {
+		"install": "node install/Bootstrap-Sharp.js",
+		"test": "npx mocha -u tdd --exit --timeout 30000 test/*_tests.js",
+		"example": "npx quack examples"
+	},
+	"config": {
+		"sharpVersion": "^0.34.5",
+		"sharpWasmVersion": "^0.34.5"
+	},
+	"mocha": {
+		"diff": true,
+		"extension": [
+			"js"
+		],
+		"package": "./package.json",
+		"reporter": "spec",
+		"slow": "75",
+		"timeout": "5000",
+		"ui": "tdd",
+		"watch-files": [
+			"source/**/*.js",
+			"test/**/*.js"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevenvelozo/retold-sharp.git"
+	},
+	"author": "steven velozo <steven@velozo.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/stevenvelozo/retold-sharp/issues"
+	},
+	"homepage": "https://github.com/stevenvelozo/retold-sharp#readme"
+}

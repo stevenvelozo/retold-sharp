@@ -1,0 +1,8 @@
+{
+    "EntrypointInputSourceFile": "/Users/steven/Code/retold/modules/utility/retold-sharp/example_applications/sharp_playground/source/Pict-Application-SharpPlayground.js",
+    "LibraryObjectName": "RetoldSharpExampleSharpPlayground",
+    "LibraryOutputFolder": "/Users/steven/Code/retold/modules/utility/retold-sharp/example_applications/sharp_playground/dist/",
+    "LibraryUniminifiedFileName": "retold-sharp-example-sharp-playground.compatible.js",
+    "LibraryMinifiedFileName": "retold-sharp-example-sharp-playground.compatible.min.js",
+    "BrowserifyIgnore": []
+}
