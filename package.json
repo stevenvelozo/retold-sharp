@@ -1,10 +1,11 @@
 {
 	"name": "retold-sharp",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Wrapper around the sharp image library that bypasses sharp's global-libvips detection at install time, so machines with Homebrew or system libvips don't fall into the build-from-source path.",
 	"main": "source/Retold-Sharp.js",
 	"scripts": {
 		"install": "node install/Bootstrap-Sharp.js",
+		"postinstall": "node install/Bootstrap-Sharp.js",
 		"test": "npx mocha -u tdd --exit --timeout 30000 test/*_tests.js",
 		"example": "npx quack examples"
 	},
