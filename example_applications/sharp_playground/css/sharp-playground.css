@@ -85,7 +85,7 @@ body
 
 .sp-panel
 {
-	background: #fff;
+	background: var(--theme-color-background-panel, #fff);
 	border: 1px solid #e5e7eb;
 	border-radius: 6px;
 	padding: 18px 20px;
@@ -113,7 +113,7 @@ button.sp-btn
 {
 	font: inherit;
 	font-size: 0.85rem;
-	background: #2563eb;
+	background: var(--theme-color-brand-primary, #2563eb);
 	color: white;
 	border: none;
 	border-radius: 4px;
@@ -123,7 +123,7 @@ button.sp-btn
 	text-align: left;
 }
 
-button.sp-btn:hover { background: #1d4ed8; }
+button.sp-btn:hover { background: var(--theme-color-brand-primary-hover, #1d4ed8); }
 button.sp-btn-secondary { background: #4b5563; min-width: auto; }
 button.sp-btn-secondary:hover { background: #374151; }
 
