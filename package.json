@@ -30,12 +30,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/stevenvelozo/retold-sharp.git"
+		"url": "git+https://github.com/fable-retold/retold-sharp.git"
 	},
 	"author": "steven velozo <steven@velozo.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/stevenvelozo/retold-sharp/issues"
+		"url": "https://github.com/fable-retold/retold-sharp/issues"
 	},
-	"homepage": "https://github.com/stevenvelozo/retold-sharp#readme"
+	"homepage": "https://github.com/fable-retold/retold-sharp#readme"
 }
