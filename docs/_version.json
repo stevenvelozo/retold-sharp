@@ -1,0 +1,7 @@
+{
+	"Name": "retold-sharp",
+	"Version": "1.0.0",
+	"Description": "Wrapper around the sharp image library that bypasses sharp's global-libvips detection at install time, so machines with Homebrew or system libvips don't fall into the build-from-source path.",
+	"GeneratedAt": "2026-05-31T01:44:02.406Z",
+	"GitCommit": "a1ca13e"
+}

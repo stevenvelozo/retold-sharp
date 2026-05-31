@@ -1,0 +1,46 @@
+{
+	"Generated": "2026-05-31T01:44:02.158Z",
+	"Mode": "module",
+	"GitHubOrg": "fable-retold",
+	"DefaultBranch": "master",
+	"Module": {
+		"Name": "retold-sharp",
+		"Repo": "retold-sharp",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Introduction",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quickstart",
+						"Path": "quickstart.md"
+					}
+				]
+			},
+			{
+				"Title": "Internals",
+				"Children": [
+					{
+						"Title": "How It Works",
+						"Path": "how-it-works.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			"README.md",
+			"_cover.md",
+			"_sidebar.md",
+			"how-it-works.md",
+			"quickstart.md"
+		]
+	},
+	"Groups": []
+}
