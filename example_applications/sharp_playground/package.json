@@ -14,7 +14,7 @@
 		"pict": "^1.0.348",
 		"pict-application": "^1.0.28",
 		"pict-view": "^1.0.67",
-		"retold-sharp": "file:../../"
+		"retold-sharp": "^1.0.0"
 	},
 	"devDependencies": {
 		"quackage": "^1.0.59"
